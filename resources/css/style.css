@@ -70,7 +70,7 @@ h2:after {
   content: " ";
   width: 100px;
   margin: 0 auto;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 /* ----------------paragraphs------------------*/
@@ -188,4 +188,41 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* --------------meals--------------*/
+
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  opacity: 0.8;
+  width: 100%;
+  height: auto;
+  transform: scale(1.18);
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.meal-photo img:hover {
+  transform: scale(1.06);
+  opacity: 1.0;
 }
