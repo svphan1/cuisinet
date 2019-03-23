@@ -3,7 +3,7 @@
 ## About
 Cuisinet is a mock responsive website selling meal kit service. 
 
-Build: HTML5, CSS3, 
+Build: HTML5, CSS3
 
 Screenhots:
 <img width="1264" alt="Screen Shot 2019-03-22 at 19 08 42" src="https://user-images.githubusercontent.com/36240410/54859691-1b862800-4cd6-11e9-9035-6cd3def8178a.png">
