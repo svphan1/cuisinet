@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -169,7 +169,13 @@ input[type="submit"] {
 /* ----------------header------------------*/
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.6)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
     url(img/main.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(img/main.jpg);
@@ -185,7 +191,7 @@ header {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -194,6 +200,16 @@ header {
   float: left;
   margin-top: 20px;
 }
+
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+/* main nav */
 
 .main-nav {
   float: right;
@@ -221,6 +237,33 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+/* sticky nav */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.982);
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.main-nav {
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555;
+}
+
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-black {
+  display: block;
 }
 
 /* -------------features------------*/
@@ -258,7 +301,7 @@ header {
   width: 100%;
   height: auto;
   -webkit-transform: scale(1.18);
-          transform: scale(1.18);
+  transform: scale(1.18);
   -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
   transition: opacity 0.4s, -webkit-transform 0.4s;
   transition: transform 0.4s, opacity 0.4s;
@@ -267,7 +310,7 @@ header {
 
 .meal-photo img:hover {
   -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+  transform: scale(1.06);
   opacity: 1;
 }
 
@@ -335,7 +378,13 @@ header {
 /* ---------------testimonials-------------*/
 
 .section-testimonials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.6)), to(rgb(0, 0, 0, 0.6))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(0, 0, 0, 0.6)),
+      to(rgb(0, 0, 0, 0.6))
+    ),
     url(img/celebrate.jpg);
   background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
     url(img/celebrate.jpg);
@@ -397,7 +446,7 @@ cite img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   -webkit-box-shadow: 0 2px 2px #efefef;
-          box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div:last-child {
