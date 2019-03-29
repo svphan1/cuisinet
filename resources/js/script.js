@@ -65,19 +65,19 @@ $(document).ready(function() {
     
     
     /* Mobile navigation */
-    // $('.js--nav-icon').click(function() {
-    //     var nav = $('.js--main-nav');
-    //     var icon = $('.js--nav-icon i');
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
         
-    //     nav.slideToggle(200);
+        nav.slideToggle(200);
         
-    //     if (icon.hasClass('ion-navicon-round')) {
-    //         icon.addClass('ion-close-round');
-    //         icon.removeClass('ion-navicon-round');
-    //     } else {
-    //         icon.addClass('ion-navicon-round');
-    //         icon.removeClass('ion-close-round');
-    //     }        
-    // });
+        if (icon.hasClass('ion-ios-menu')) {
+            icon.addClass('ion-md-close');
+            icon.removeClass('ion-ios-menu');
+        } else {
+            icon.addClass('ion-ios-menu');
+            icon.removeClass('ion-md-close');
+        }        
+    });
 
 });
