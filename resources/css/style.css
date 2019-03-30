@@ -169,10 +169,16 @@ input[type="submit"] {
 /* ----------------header------------------*/
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))),
-    url(img/main.jpg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.6)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url(img/main-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/main.jpg);
+    url(img/main-min.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -256,7 +262,7 @@ header {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.982);
   -webkit-box-shadow: 0 2px 2px #efefef;
-          box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #efefef;
   z-index: 9999;
 }
 
@@ -389,10 +395,16 @@ header {
 /* ---------------testimonials-------------*/
 
 .section-testimonials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.6)), to(rgb(0, 0, 0, 0.6))),
-    url(img/celebrate.jpg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(0, 0, 0, 0.6)),
+      to(rgb(0, 0, 0, 0.6))
+    ),
+    url(img/celebrate-min.jpg);
   background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
-    url(img/celebrate.jpg);
+    url(img/celebrate-min.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -599,18 +611,16 @@ footer p {
 .js--wp-3 {
   opacity: 0;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 .js--wp-4 {
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated, {
+.js--wp-3.animated {
   opacity: 1;
 }
-
-
